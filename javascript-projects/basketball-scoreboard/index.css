@@ -12,15 +12,19 @@ body {
 .container {
     display: flex;
     background: #001546;
+    justify-content: space-between;
     height: 100%;
     width: 100%;
 }
+.home-container,
+.guest-container{
+    flex-direction: column;
+}
+
 .home, 
 .guest {
     color: white;
     font-size: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-
-
 }
